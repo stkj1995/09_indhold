@@ -1,0 +1,30 @@
+/* mobile */
+
+@media only screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f8f2ee;
+    color: #3e5c6d;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .overskrift1,
+  .overskrift2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+  }
+
+  .kursiv {
+    font-style: italic;
+  }
+}
