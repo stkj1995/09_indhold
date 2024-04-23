@@ -7,6 +7,10 @@
     box-sizing: border-box;
   }
 
+  main {
+    text-align: center;
+  }
+
   body {
     background-color: #f8f2ee;
     color: #3e5c6d;
@@ -21,10 +25,27 @@
   .overskrift1,
   .overskrift2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30;
+    font-size: 30px;
+    background-color: white;
   }
 
   .kursiv {
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    font-size: 22px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  .forste_tekst {
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+  }
+
+  .anden_tekst {
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
   }
 }
