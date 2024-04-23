@@ -103,4 +103,22 @@
     color: #e9502d;
     font-weight: bold;
   }
+
+  .img {
+    background-image: url("/public/img/baggrund2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100vh;
+  }
+
+  .overskrift4 {
+    margin-top: 350px;
+  }
 }
