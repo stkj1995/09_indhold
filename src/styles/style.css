@@ -22,6 +22,10 @@
     display: block;
   }
 
+  video {
+    width: 100%;
+  }
+
   .timeline a {
     color: #3e5c6d;
   }
@@ -176,11 +180,10 @@
     text-decoration: none;
   }
 
-  /* video {
-    max-width: 50px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  } */
+  .garnnogle {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
