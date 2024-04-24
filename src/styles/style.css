@@ -1,189 +1,185 @@
 /* mobile */
 
-@media only screen and (max-width: 700px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  main {
-    text-align: center;
-  }
+main {
+  text-align: center;
+}
 
-  body {
-    background-color: #f8f2ee;
-    color: #3e5c6d;
-  }
+body {
+  background-color: #f8f2ee;
+  color: #466979;
+}
 
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-  video {
-    width: 100%;
-  }
+video {
+  width: 100%;
+}
 
-  .timeline a {
-    color: #3e5c6d;
-  }
+.timeline a {
+  color: #3e5c6d;
+}
 
-  .overskrift1,
-  .overskrift2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    background-color: white;
-    text-transform: uppercase;
-  }
+.overskrift1,
+.overskrift2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: white;
+  text-transform: uppercase;
+}
 
-  .kursiv {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 22px;
-    background-color: white;
-    padding-top: 20px;
-  }
+.kursiv {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  background-color: white;
+  padding-top: 20px;
+}
 
-  .forste_tekst {
-    background-color: white;
-    margin: 50px;
-    padding: 30px;
-  }
+.forste_tekst {
+  background-color: white;
+  margin: 50px;
+  padding: 30px;
+}
 
-  .anden_tekst {
-    background-color: white;
-    margin: 50px;
-    padding: 30px;
-    margin-top: 150px;
-  }
+.anden_tekst {
+  background-color: white;
+  margin: 50px;
+  padding: 30px;
+  margin-top: 150px;
+}
 
-  .tekst1,
-  .tekst2,
-  .tekst3,
-  .tekst4 {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    margin: 50px;
-    font-size: 12px;
-    padding: 20px;
-    text-align: left;
-    line-height: 20px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
+.tekst1,
+.tekst2,
+.tekst3,
+.tekst4 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 50px;
+  font-size: 12px;
+  padding: 20px;
+  text-align: left;
+  line-height: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
 
-  .citat1,
-  .citat2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    margin: 50px;
-    line-height: 30px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
+.citat1,
+.citat2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 50px;
+  line-height: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
-  h2 {
-    color: white;
-    background-color: #3e5c6d;
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
+h2 {
+  color: white;
+  background-color: #3e5c6d;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 
-  .overskrift3,
-  .overskrift4 {
-    background-color: white;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 50px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    text-transform: uppercase;
-  }
+.overskrift3,
+.overskrift4 {
+  background-color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-top: 300px;
+}
 
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-  }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+}
 
-  .info {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.info {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .mobilepay,
-  .mail {
-    color: #e9502d;
-    font-weight: bold;
-    padding-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.mobilepay,
+.mail {
+  color: #e9502d;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  .img {
-    background-image: url("/public/img/baggrund2.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.img {
+  background-image: url("/public/img/baggrund2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.img2 {
+  background-image: url("/public/img/baggrund1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
 
-    height: 100vh;
-  }
+.bold {
+  font-weight: bold;
+  margin-bottom: 80px;
+}
 
-  .overskrift4 {
-    margin-top: 350px;
-  }
+.some {
+  background-color: #466979;
+  padding: 50px;
+  padding-bottom: 350px;
+  color: white;
+}
 
-  .img2 {
-    background-image: url("/public/img/baggrund1.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.garnnogle {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
-    height: 100vh;
-  }
+.animation video {
+  width: 80%;
+}
 
-  .overskrift3 {
-    margin-top: 350px;
-  }
+.garnnogle video {
+  width: 30%;
+}
 
-  .bold {
-    font-weight: bold;
-    margin-bottom: 80px;
-  }
-
-  .some {
-    background-color: #3e5c6d;
-    padding: 50px;
-    padding-bottom: 350px;
-    color: white;
-  }
-
-  a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-  }
-
-  .garnnogle {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
+#instagram {
+  background-color: #466979;
 }
