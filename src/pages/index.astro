@@ -80,18 +80,23 @@
 				<h1 class="overskrift3">MEN HVORFOR ER DER BRUG FOR AT GENANVENDE STOF?</h1>
 			</article>
 		
+			<article id="tal">
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+				<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/mio_92_tons.mp4"></video>
+					<p>AF TEKSTILAFFALD BLIVER PRODUCERET HVERT ÅR</p>
 				</article>
 
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+					<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/procent_af_toejet.mp4"></video>
+					<p>I VORES GARDEROBE BLIVER STORT SET ALDRIG BRUGT</p>
 				</article>
 
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+					<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/globalt_spildevand.mp4"></video>
+					<p>BLIVER DANNET VED AT FARVE OG FÆRDIGGØRE TEKSTILER</p>
 				</article>
 			</article>
+			<p>Tal taget fra earth.org - august 2023</p>
 			
 				<article class="img">
 					<h1 class="overskrift4">SAMMEN HAR VI SØRGET FOR..</h1>
@@ -99,21 +104,25 @@
 				
 				<article id="tal">
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+					<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/plus3_tons.mp4"></video>
+				<p>AFTAGNING AF KASSEREDE TEKSTILER I 2023</p>
 				</article>
 	
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+					<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/12_med_bg.mp4"></video>
+					<p>ANSÆTTELSER I 2023</p>
 				</article>
 	
 				<article class="circles">
-					<!-- her ligger vores cirkler -->
+					<video autoplay src="https://ladanarif.dk/kea/cirkelvideoer/60.mp4"></video>
+					<p>PRAKTIKANTER I 2023</p>
 				</article>
 				</article>
+				<p>Tal taget fra itmv.dk - den sociale bundlinje</p>
 
 			
 				<article class="interview">
-					<video src="https://idaemilierichter.dk/kea/09_indhold2/interview.mp4"></video>
+					<video id="myVideo" autoplay src="https://idaemilierichter.dk/kea/09_indhold2/interview.mp4"></video>
 				</article>
 			
 				<article class="video_efter_interview">
@@ -161,4 +170,27 @@
 			</article>
         </main>
     </body>
+	<script>
+		let options = {
+			root: null, 
+			rootMargin: "0px",
+			threshold:1.0
+		};
+		let callback = (entries, observer)=>{
+			entries.forEach(entry => {
+				if(entry.target.id == "myVideo")
+				{
+					if(entry.isIntersecting){
+						entry.target.play();
+
+					}
+					else{
+						entry.target.pause();
+					}
+				}
+			});
+		}
+		let observer = new IntersectionObserver(callback, options);
+		observer.observe(document.querySelector("#myVideo"));
+	</script>
 </html>

@@ -244,8 +244,8 @@ a {
 }
 
 .billeder img {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 #start {
@@ -296,5 +296,22 @@ a {
 
   .overskrift3 {
     width: 40rem;
+  }
+
+  .mobilepay {
+    font-size: 24px;
+  }
+
+  #tal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+
+  .circles {
+    width: 12rem;
   }
 }
