@@ -11,7 +11,7 @@ main {
 }
 
 body {
-  background-color: #f8f2ee;
+  background-color: #faf4f1;
   color: #466979;
 }
 
@@ -26,7 +26,7 @@ video {
 }
 
 .timeline a {
-  color: #3e5c6d;
+  color: #466979;
 }
 
 .overskrift1,
@@ -47,14 +47,14 @@ video {
 
 .forste_tekst {
   background-color: white;
-  margin: 50px;
-  padding: 30px;
+  margin: 100px;
+  padding: 20px;
 }
 
 .anden_tekst {
   background-color: white;
   margin: 50px;
-  padding: 30px;
+  padding: 20px;
   margin-top: 150px;
 }
 
@@ -69,8 +69,6 @@ video {
   padding: 20px;
   text-align: left;
   line-height: 20px;
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 .citat1,
@@ -80,8 +78,7 @@ video {
   font-style: italic;
   margin: 50px;
   line-height: 30px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  color: white;
 }
 
 h2 {
@@ -100,6 +97,8 @@ h2 {
   padding: 20px;
   text-transform: uppercase;
   margin-top: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 p {
@@ -134,6 +133,56 @@ p {
   height: 100vh;
 }
 
+.billede1noline {
+  background-image: url("/public/img/billed1noline.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 100vh;
+}
+
+.billede1line {
+  background-image: url("/public/img/billede1line.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 100vh;
+}
+
+.billede2noline {
+  background-image: url("/public/img/billed2noline.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.billede2line {
+  background-image: url("/public/img/billede2line.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .img2 {
   background-image: url("/public/img/baggrund1.webp");
   background-size: cover;
@@ -154,7 +203,6 @@ p {
 .some {
   background-color: #466979;
   padding: 50px;
-  padding-bottom: 350px;
   color: white;
 }
 
@@ -178,8 +226,73 @@ a {
 
 .garnnogle video {
   width: 30%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #instagram {
   background-color: #466979;
+}
+
+.billeder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.billeder img {
+  width: 10rem;
+}
+
+#start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.starttekst {
+  position: absolute;
+  text-align: center;
+}
+
+.scrollingcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.scrollingcontainer img {
+  width: 10rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .tekst1,
+  .tekst2,
+  .tekst3,
+  .tekst4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 50px;
+    font-size: 16px;
+    padding: 20px;
+    text-align: left;
+    line-height: 20px;
+    width: 50rem;
+  }
+
+  .citat1,
+  .citat2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    margin: 50px;
+    line-height: 30px;
+    color: white;
+    width: 50rem;
+  }
+
+  .overskrift3 {
+    width: 40rem;
+  }
 }
